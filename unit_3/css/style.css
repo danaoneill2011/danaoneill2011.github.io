@@ -1,0 +1,25 @@
+body {
+	background: url("images\stadium_stlouis2.jpg");
+	background-size: cover; 
+	color: rgb(255,255,255);
+	font-family: Helvetica;
+}
+h1 hr #slogan {
+	text-align: center;
+	color: rgb(255,255,255);
+}
+hr {
+	width: 300px;
+}
+#slogan {
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+}
+p {
+	color: rgb(255,255,255);
+}
+
+a {
+	text-decoration: none;
+}
