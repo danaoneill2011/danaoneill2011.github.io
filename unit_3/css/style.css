@@ -3,9 +3,9 @@ body {
 	background-size: cover; 
 	color: rgb(255,255,255);
 	font-family: Helvetica;
+	text-align: center;
 }
 h1 hr #slogan {
-	text-align: center;
 	color: rgb(255,255,255);
 }
 hr {
