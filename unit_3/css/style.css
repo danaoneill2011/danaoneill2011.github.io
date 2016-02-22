@@ -21,11 +21,6 @@ body {
 	margin-right: auto;
 }
 
-#logo {
-	display: inline-block;
-	position: absolute;
-}
-
 #nav {
 	text-align: center;
 	width: 100%;
