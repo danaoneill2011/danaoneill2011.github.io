@@ -32,6 +32,7 @@ h3, h4 {
 ol, ul {
 	list-style: none;
 	font-family: 'Raleway', sans-serif;
+	text-align: center;
 }
 
 .image {
