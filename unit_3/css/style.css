@@ -21,14 +21,11 @@ body {
 	position: relative;
 }
 
-#logo{
+#logo a{
 	display: inline-block;
 	font-family: 'Syncopate', sans-serif;
 }
 
-#logo h1{
-	font-size: 3em;
-}
 
 nav#nav {
 	text-align: center;
