@@ -41,6 +41,7 @@ ol, ul {
 #page-wrapper {
 	background-color: #d1d4c1;
 	text-align: center;
+	position: relative;
 }
 
 #header-wrapper {
@@ -59,7 +60,7 @@ ol, ul {
 	font-size: 25px;
 	left: 0;
 	top: 0;
-	position: absolute;
+	position: relative;
 }
 	#logo h1{
 		font-family: 'Syncopate', sans-serif;
@@ -68,7 +69,7 @@ ol, ul {
 	}
 
 #nav {
-	position: absolute;
+	position: relative;
 	right: 0;
 	top: 0;
 	font-size: 16px;
