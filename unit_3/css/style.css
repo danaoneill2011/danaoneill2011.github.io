@@ -131,3 +131,8 @@ a {
 	position: relative;
 	font-size: 0.5em;
 }
+	#footer a{
+	background: rgb(19,27,35);
+	position: relative;
+	font-size: 0.5em;
+}
