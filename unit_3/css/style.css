@@ -31,12 +31,18 @@ p {
 	color: rgb(0,0,0);
 }
 
-/* logo */
+/* containers */
+.container {
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-#header {
-	position: relative;	
-	font-family: 'Open Sans', sans-serif;
-	display: block;
+/* wrappers */
+#header-wrapper{
+	background: rgb(255,255,255);
+	background-size: cover;
+	position: relative;
 }
 
 #logo {
@@ -51,18 +57,6 @@ p {
 	height: 4em;
 	cursor: default;
 	display: block;
-}
-
-nav#nav {
-	vertical-align: baseline;
-}
-
-
-/* wrappers */
-#header-wrapper{
-	background: rgb(255,255,255);
-	background-size: cover;
-	position: relative;
 }
 
 #hero {
@@ -83,13 +77,6 @@ nav#nav {
 
 
 
-/* containers */
-.container {
-	width: auto;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 /* hyperlinks */
 a {
 	font-family: 'Open Sans', sans-serif;
@@ -102,6 +89,18 @@ a {
 ol, ul {
 	list-style: none;
 }
+
+
+/* logo */
+
+#header {
+	position: relative;	
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+}
+
+
+
 
 /*tables*/
 
