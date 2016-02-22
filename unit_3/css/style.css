@@ -81,6 +81,7 @@ hr{
 	top: 0;
 	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
+	word-spacing: 8px;
 }
 
 	#nav ul li {
@@ -88,7 +89,6 @@ hr{
 		list-style: none;
 		line-height: 25px;
 		padding-left: 16px;
-		word-spacing: 8px;
 	}
 
 #hero {
@@ -97,8 +97,8 @@ hr{
 	background-size: cover;
 	color: #fff;
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 	#hero h2 {
 		font-family: 'Syncopate', sans-serif;
@@ -112,13 +112,15 @@ hr{
 	}
 
 #slogan {
-	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	font-weight: bold;
+	font-family: 'Syncopate', sans-serif;
+	font-size: 25px;
+	line-height: 25px;
 }
 
 	#slogan, h1{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Syncopate', sans-serif;
+	font-size: 25px;
+	line-height: 25px;
 	color: #fff;
 	}
 
@@ -136,8 +138,8 @@ hr{
 	font-size: 13px;
 	text-align: center;
 	color: #000;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 p {
