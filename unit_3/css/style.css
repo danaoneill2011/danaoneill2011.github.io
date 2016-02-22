@@ -17,12 +17,12 @@ body {
 	position: relative;
 }
 
-/*#header.container {*/
-	/*width: 100%;*/
+#header {
+	position: relative;
 }
 
 #logo{
-	text-align: center;
+	font-family: 'Homemade Apple', cursive;
 	display: inline-block;
 }
 
