@@ -9,6 +9,10 @@ body {
 	text-align: center;
 }
 
+h1{
+	font-family: 'Syncopate', sans-serif;
+}
+
 #header-wrapper {
 	background: rgb(255,255,255);
 	background-size: 100%;
@@ -20,7 +24,7 @@ body {
 
 #logo {
 	display: inline-block;
-	font-family: 'Syncopate', sans-serif;
+	
 }
 
 
