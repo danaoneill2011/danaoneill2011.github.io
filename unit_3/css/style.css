@@ -56,6 +56,11 @@ ol, ul {
 	position: relative;
 }
 
+hr{
+	width: 300px;
+	color: #fff;
+}
+
 #logo {
 
 	display: block;
