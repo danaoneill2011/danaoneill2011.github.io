@@ -32,15 +32,18 @@ ol, ul {
 	list-style: none;
 }
 
+#header .logo{
+	position: relative;	
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
 #hero {
 	background: url("/unit_3/images/whiterose-background-v2.jpg");
 	background-size: cover;
 }
 
-#header {
-	position: relative;	
-	font-family: 'Open Sans', sans-serif;
-}
+
 
 h1, hr #slogan {
 	font-family: 'Open Sans', sans-serif;
