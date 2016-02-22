@@ -38,6 +38,7 @@ ol, ul {
 }
 
 #header-wrapper {
+	background-color: #d1d4c1;
 	text-align: center;
 }
 
@@ -46,7 +47,7 @@ ol, ul {
 }
 
 #logo {
-	background-color: #d1d4c1;
+
 	display: inline-block;
 	font-family: 'Syncopate', sans-serif;
 }
