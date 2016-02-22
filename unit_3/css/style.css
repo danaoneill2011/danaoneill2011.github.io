@@ -37,6 +37,11 @@ ol, ul {
 	outline: 0;
 }
 
+#page-wrapper {
+	background-color: #d1d4c1;
+	text-align: center;
+}
+
 #header-wrapper {
 	background-color: #d1d4c1;
 	text-align: center;
