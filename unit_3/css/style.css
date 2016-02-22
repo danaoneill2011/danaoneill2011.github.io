@@ -19,7 +19,10 @@ nav#nav {
 	margin-right: auto;
 }*/
 
-
+h1{
+	font-family: 'Syncopate', sans-serif;
+	font-size: 25px;
+}
 
 h3, h4 {
 	font-family: 'Raleway', sans-serif;
@@ -55,13 +58,12 @@ ol, ul {
 
 	display: block;
 	font-family: 'Syncopate', sans-serif;
-	font-size: 25px;
 	left: 0;
 	top: 0;
 	position: relative;
 }
 	#logo h1{
-		font-family: 'Syncopate', sans-serif;
+		position: relative;
 	}
 
 #nav {
