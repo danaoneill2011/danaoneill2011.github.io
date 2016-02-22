@@ -49,7 +49,7 @@ p {
 
 /* logo */
 
-#header {
+#header.container{
 	position: relative;	
 	font-family: "Raleway", sans-serif;
 }
