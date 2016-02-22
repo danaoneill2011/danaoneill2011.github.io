@@ -1,8 +1,9 @@
 body {
 	/*background: url("/unit_3/images/rose-background-v3.jpg");*/
-	background: rgb(249,255,253);
+	background: rgb(141,143,105);
 	/*background-size: cover;*/
-	margin: 10em;
+	margin-left: 10em;
+	margin-right: 10em;
 	color: rgb(0,0,0);
 	font-family: "Raleway", sans-serif;
 	text-align: center;
