@@ -33,7 +33,7 @@ ol, ul {
 }
 
 #header .logo{
-	position: relative;	
+	text-align: center;
 	width: 100%;
 	font-family: 'Open Sans', sans-serif;
 }
