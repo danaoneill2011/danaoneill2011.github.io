@@ -87,6 +87,7 @@ hr{
 		float: left;
 		line-height: 25px;
 		padding-left: 16px;
+		word-spacing: 8px;
 	}
 
 #hero {
