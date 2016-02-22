@@ -17,17 +17,25 @@ body {
 	position: relative;
 }
 
-#header {
+#header.container {
 	position: relative;
 }
 
 #logo{
-	font-family: 'Homemade Apple', cursive;
 	display: inline-block;
+}
+
+#logo h1{
+	font-family: 'Homemade Apple', cursive;
+	font-size: 3em;
 }
 
 nav#nav {
 	text-align: center;
+}
+
+#nav {
+	position: absolute;
 }
 
 ol, ul {
@@ -50,9 +58,6 @@ h1, hr #slogan {
 	color: rgb(0,0,0);
 }
 
-hr {
-	width: 500px;
-}
 
 #slogan {
 	font-family: 'Raleway', sans-serif;
