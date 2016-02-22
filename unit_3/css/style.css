@@ -97,7 +97,7 @@ ol, ul {
 	#slogan, h1{
 	font-family: 'Raleway', sans-serif;
 	color: rgb(0,0,0);
-}
+	}
 
 p {
 	font-family: 'Raleway', sans-serif;
@@ -125,4 +125,5 @@ a {
 #footer {
 	background: rgb(19,27,35);
 	position: relative;
+	font-size: 0.5em;
 }
