@@ -16,11 +16,6 @@ h1{
 
 
 
-h1 #logo {
-	text-align: left;
-	display: inline-block;
-	
-}
 
 #header-wrapper {
 	background: rgb(255,255,255);
@@ -45,7 +40,7 @@ ol, ul {
 
 
 
-#hero.container {
+#hero {
 	background: url("/unit_3/images/whiterose-background-v2.jpg");
 	background-size: cover;
 	width: 100%;
