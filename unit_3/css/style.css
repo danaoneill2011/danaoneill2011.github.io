@@ -85,6 +85,7 @@ hr{
 
 	#nav ul li {
 		float: left;
+		list-style: none;
 		line-height: 25px;
 		padding-left: 16px;
 		word-spacing: 8px;
@@ -123,6 +124,7 @@ hr{
 
 #hero.actions {
 	line-height: 45px;
+	list-style: none;
 	border-color: rgba(255,255,255,0.75);
 	background-color: rgba(255,255,255,0.15);
 	color: #fff; 
