@@ -38,19 +38,17 @@ p {
 }
 
 #hero {
-	background: url("/unit_3/images/danakevin-background-v2.jpg");
+	background: url("/unit_3/images/whiterose-background-v2.jpg");
 	background-size: cover;
-	margin-top: 10em;
-	margin-bottom: 10em;
+	text-align: center;
 }
+
 #banner-wrapper {
-	background: url("/unit_3/images/danakevin-background-v2.jpg");
+	background: rgb(255,255,255);
 	background-size: cover;
 }
 
 #banner-wrapper .row {
-	background: rgb(249,255,253); 
-	background-size: 100%;
 	text-align: center;
 
 }
