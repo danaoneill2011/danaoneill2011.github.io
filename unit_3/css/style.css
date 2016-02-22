@@ -4,13 +4,13 @@ body {
 	/*background-size: cover;*/
 	margin-left: 10em;
 	margin-right: 10em;
-	font-family: 'Raleway', sans-serif;
 	color: #696969;
 	text-align: center;
 }
 
 nav#nav {
 	display: block;
+	font-family: 'Raleway', sans-serif;
 }
 
 
@@ -30,6 +30,7 @@ h3, h4 {
 
 ol, ul {
 	list-style: none;
+	font-family: 'Raleway', sans-serif;
 }
 
 .image {
@@ -40,6 +41,7 @@ ol, ul {
 #page-wrapper {
 	background-color: #d1d4c1;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
 }
 
 #header-wrapper {
@@ -78,18 +80,17 @@ ol, ul {
 	position: relative;
 	background: url("/unit_3/images/whiterose-background-v2.jpg");
 	background-size: cover;
-	color: rgb(255,255,255);
+	color: #fff;
 	text-align: center;
 }
 	#hero h2 {
 		font-family: 'Syncopate', sans-serif;
-		color: rgb(255,255,255); 
+		color: #fff; 
 		font-size: 2.5em;
 	}
 
 	#hero p {
-		font-size: 0.8em;
-		line-height: 1em;
+		line-height: 3em;
 	}
 
 #slogan {
@@ -101,17 +102,18 @@ ol, ul {
 
 	#slogan, h1{
 	font-family: 'Raleway', sans-serif;
-	color: rgb(0,0,0);
+	color: #fff;
 	}
 
 #main-wrapper {
 	background-color: #d1d4c1;
+	font-size: 2em;
 }
 
 p {
 	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
-	color: rgb(0,0,0);
+	font-size: 2em;
+	color: #fff;
 }
 
 
@@ -119,7 +121,7 @@ p {
 a {
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
-	color: rgb(0,0,0);
+	color: #fff;
 	text-decoration: none;
 }
 
