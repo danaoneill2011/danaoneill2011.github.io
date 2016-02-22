@@ -9,7 +9,7 @@ body {
 }
 
 nav#nav {
-	display: block;
+	display: inline-block;
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -150,6 +150,13 @@ a {
 	color: #fff;
 }
 	#footer a{
+	background: rgb(19,27,35);
+	position: relative;
+	font-size: 9px;
+	color: #fff;
+}
+
+#footer p{
 	background: rgb(19,27,35);
 	position: relative;
 	font-size: 9px;
