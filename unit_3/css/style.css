@@ -115,6 +115,8 @@ ol, ul {
 #main-wrapper {
 	background-color: #d1d4c1;
 	font-size: 13px;
+	text-align: center;
+	color: #000;
 }
 
 p {
