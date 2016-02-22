@@ -3,12 +3,12 @@ body {
 	background: rgb(249,255,253);
 	/*background-size: cover;*/
 	color: rgb(0,0,0);
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	text-align: center;
 }
 
 h1, hr #slogan {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	color: rgb(0,0,0);
 }
 
@@ -30,9 +30,9 @@ p {
 
 /* wrappers */
 #header-wrapper{
-	background: rgb(19,27,35);
+	background: url("/unit_3/images/danakevin-background-v2.jpg");
+	background-size: cover;
 	position: relative;
-	background-size: 100%;
 }
 
 #banner-wrapper {
@@ -41,17 +41,21 @@ p {
 }
 
 #banner-wrapper .row {
+	background: rgb(249,255,253); 
+	background-size: 100%;
 	text-align: center;
+
 }
 
 /* logo */
-#logo {
-	display: inline-block;
-}
 
 #header {
 	position: relative;	
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
+}
+
+#logo h1{
+	display: inline-block;
 }
 
 #nav {
