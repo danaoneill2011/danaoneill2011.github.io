@@ -58,6 +58,7 @@ p {
 #header {
 	position: relative;	
 	font-family: "Raleway", sans-serif;
+	display: block;
 }
 
 #logo {
@@ -67,6 +68,7 @@ p {
 #nav {
 	position: absolute;
 	cursor: default;
+	display: block;
 }
 
 
