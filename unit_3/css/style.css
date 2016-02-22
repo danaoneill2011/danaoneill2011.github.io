@@ -39,6 +39,8 @@ p {
 #hero {
 	background: url("/unit_3/images/danakevin-background-v2.jpg");
 	background-size: cover;
+	margin-top: 10em;
+	margin-bottom: 10em;
 }
 #banner-wrapper {
 	background: url("/unit_3/images/danakevin-background-v2.jpg");
@@ -71,7 +73,7 @@ p {
 
 /* containers */
 .container {
-	width: 1400px;
+	width: auto;
 }
 
 /* hyperlinks */
