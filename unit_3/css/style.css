@@ -22,7 +22,8 @@ h1{
 }
 
 
-#logo {
+#logo h1{
+	text-align: left;
 	display: inline-block;
 	
 }
