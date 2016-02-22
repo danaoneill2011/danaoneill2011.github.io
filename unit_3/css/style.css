@@ -30,11 +30,15 @@ p {
 
 /* wrappers */
 #header-wrapper{
-	background: url("/unit_3/images/danakevin-background-v2.jpg");
+	background: rgb(255,255,255);
 	background-size: cover;
 	position: relative;
 }
 
+#hero {
+	background: url("/unit_3/images/danakevin-background-v2.jpg");
+	background-size: cover;
+}
 #banner-wrapper {
 	background: url("/unit_3/images/danakevin-background-v2.jpg");
 	background-size: cover;
@@ -49,12 +53,12 @@ p {
 
 /* logo */
 
-#header .container{
+#header {
 	position: relative;	
 	font-family: "Raleway", sans-serif;
 }
 
-#logo h1{
+#logo {
 	display: inline-block;
 }
 
