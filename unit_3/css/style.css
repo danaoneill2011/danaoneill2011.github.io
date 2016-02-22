@@ -22,7 +22,7 @@ h1{
 }
 
 
-#logo h1{
+h1 #logo {
 	text-align: left;
 	display: inline-block;
 	
