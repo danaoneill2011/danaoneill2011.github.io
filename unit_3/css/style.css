@@ -42,13 +42,11 @@ ol, ul {
 #hero {
 	background: url("/unit_3/images/whiterose-background-v2.jpg");
 	background-size: cover;
-	text-align: center;
 }
 
 #header {
 	position: relative;	
 	font-family: 'Open Sans', sans-serif;
-	display: block;
 }
 
 h1, hr #slogan {
