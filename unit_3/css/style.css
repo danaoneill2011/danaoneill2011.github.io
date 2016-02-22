@@ -97,8 +97,8 @@ hr{
 	background-size: cover;
 	color: #fff;
 	text-align: center;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 	#hero h2 {
 		font-family: 'Syncopate', sans-serif;
@@ -136,8 +136,8 @@ hr{
 	font-size: 13px;
 	text-align: center;
 	color: #000;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 p {
@@ -182,4 +182,6 @@ a {
 	position: relative;
 	font-size: 9px;
 	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 10px;
 }
