@@ -64,7 +64,7 @@ p {
 
 #logo {
 	display: inline-block;
-	position: left;
+	position: absolute;
 }
 
 #nav {
