@@ -1,25 +1,89 @@
 body {
 	/*background: url("/unit_3/images/rose-background-v3.jpg");*/
-	background-size: cover; 
-	color: rgb(255,255,255);
-	font-family: Helvetica;
+	background: rgb(249,255,253);
+	/*background-size: cover;*/
+	color: rgb(0,0,0);
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
 }
-h1 hr #slogan {
-	color: rgb(255,255,255);
+
+h1, hr #slogan {
+	font-family: 'Raleway', sans-serif;
+	color: rgb(0,0,0);
 }
+
 hr {
-	width: 300px;
+	width: 500px;
 }
+
 #slogan {
 	font-style: italic;
 	font-size: 18px;
 	font-weight: bold;
 }
+
 p {
-	color: rgb(255,255,255);
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: rgb(0,0,0);
 }
 
+/* wrappers */
+#header-wrapper{
+	background: rgb(19,27,35);
+	position: relative;
+	background-size: 100%;
+}
+
+#banner-wrapper {
+	background: url("/unit_3/images/danakevin-background-v2.jpg");
+	background-size: cover;
+}
+
+#banner-wrapper .row {
+	text-align: center;
+}
+
+/* logo */
+#logo {
+	display: inline-block;
+}
+
+#header {
+	position: relative;	
+	font-family: 'Raleway', sans-serif;
+}
+
+#nav {
+	position: absolute;
+	cursor: default;
+}
+
+
+/* containers */
+.container {
+	width: 1400px;
+}
+
+/* hyperlinks */
 a {
+	font-family: Helvetica;
+	font-size: 14px;
+	color: rgb(0,0,0);
 	text-decoration: none;
+}
+
+/*lists*/
+ol, ul {
+	list-style: none;
+}
+
+/*tables*/
+
+/*buttons*/
+
+/*footers*/
+#footer {
+	background: rgb(19,27,35);
+	margin-top: 0px;
 }
