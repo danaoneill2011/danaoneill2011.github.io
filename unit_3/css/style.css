@@ -1,3 +1,13 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
 	/*background: url("/unit_3/images/rose-background-v3.jpg");*/
 	background: rgb(141,143,105);
@@ -5,7 +15,6 @@ body {
 	margin-left: 10em;
 	margin-right: 10em;
 	color: #696969;
-	text-align: center;
 }
 
 nav#nav {
@@ -42,13 +51,11 @@ ol, ul {
 
 #page-wrapper {
 	background-color: #d1d4c1;
-	text-align: center;
 	position: relative;
 }
 
 #header-wrapper {
 	background-color: #d1d4c1;
-	text-align: center;
 	font-family: 'Syncopate', sans-serif;
 }
 
@@ -56,34 +63,40 @@ ol, ul {
 	position: relative;
 }
 
+#header:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 hr{
 	width: 300px;
 	color: #fff;
+	display: block;
+	margin: 0 auto;
 }
 
 #logo {
-
+	width: 50%;
+	float: left;
 	display: block;
-	position: relative;
 }
 	#logo h1 a{
 		font-family: 'Syncopate', sans-serif;
 		font-size: 25px;
 		line-height: 25px;
-		left: 0
-		top: 0;
-
 	}
 
 #nav {
-	position: relative;
-	right: 0;
-	top: 0;
+	width: 50%;
+	float: right;
 	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
 	word-spacing: 8px;
 }
-
+	#nav ul {
+		float: right;
+	}
 	#nav ul li {
 		float: left;
 		list-style: none;
@@ -93,7 +106,7 @@ hr{
 
 #hero {
 	position: relative;
-	background: url("/unit_3/images/whiterose-background-v2.jpg");
+	background: url("../images/whiterose-background-v2.jpg");
 	background-size: cover;
 	color: #fff;
 	text-align: center;
