@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Syncopate);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 *,
 *:before,
 *:after {
@@ -10,17 +12,13 @@
 
 body {
 	/*background: url("/unit_3/images/rose-background-v3.jpg");*/
-	background: rgb(141,143,105);
+	background: #ffffee;
 	/*background-size: cover;*/
-	margin-left: 10em;
-	margin-right: 10em;
-	color: #696969;
+	margin-left: 5em;
+	margin-right: 5em;
+	color: #222211;
 }
 
-nav#nav {
-	display: block;
-	font-family: 'Raleway', sans-serif;
-}
 
 
 /*.container {
@@ -28,14 +26,27 @@ nav#nav {
 	margin-right: auto;
 }*/
 
-h1{
+h1 {
 	font-family: 'Syncopate', sans-serif;
 	font-size: 25px;
+	color: #ffffee;
 }
 
-h3, h4 {
+h2 {
+	font-size: 45px;
+	color: #ffffee;
+}
+
+h3 {
+	font-size: 20px;
+	color: #ffffee;
+	text-decoration: none;
+}
+
+h4 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
+	color: #222211;
 }
 
 ol, ul {
@@ -44,19 +55,39 @@ ol, ul {
 	text-align: center;
 }
 
+p {
+	font-size: 14px;
+	line-height: 18px;
+	color: #222211;
+}
+
+	p ul li {
+		font-size: 1em;
+		line-height: 18px;
+		color: #222211;
+	}
+
+nav#nav {
+	display: block;
+	font-family: 'Syncopate', sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+
+}
+
 .image {
 	display: inline-block;
 	outline: 0;
 }
 
 #page-wrapper {
-	background-color: #d1d4c1;
 	position: relative;
 }
 
 #header-wrapper {
-	background-color: #d1d4c1;
+	background-color: #999977;
 	font-family: 'Syncopate', sans-serif;
+	
 }
 
 #header {
@@ -71,28 +102,33 @@ ol, ul {
 
 hr{
 	width: 300px;
-	color: #fff;
+	color: #ffffee;
 	display: block;
 	margin: 0 auto;
 }
 
 #logo {
-	width: 50%;
+	width: 25%;
 	float: left;
 	display: block;
+	padding-left: 25px;
+	line-height: 50px;
 }
+
+
 	#logo h1 a{
 		font-family: 'Syncopate', sans-serif;
-		font-size: 25px;
-		line-height: 25px;
+		font-size: 1em;
+		line-height: 50px;
 	}
 
 #nav {
-	width: 50%;
+	width: 75%;
 	float: right;
-	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
-	word-spacing: 8px;
+	word-spacing: 1em;
+	padding-right: 25px;
+	line-height: 50px;
 }
 	#nav ul {
 		float: right;
@@ -100,73 +136,94 @@ hr{
 	#nav ul li {
 		float: left;
 		list-style: none;
-		line-height: 25px;
-		padding-left: 16px;
+		line-height: 50px;
+		padding-left: 50px;
 	}
 
 #hero {
 	position: relative;
 	background: url("../images/whiterose-background-v2.jpg");
 	background-size: cover;
-	color: #fff;
+	color: #ffffee;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 8.5em;
+	padding-bottom: 3em;
 }
 	#hero h2 {
 		font-family: 'Syncopate', sans-serif;
-		color: #fff; 
-		font-size: 55px;
+		color: #ffffee; 
+		font-weight: 500;
+		text-transform: uppercase;
+		font-size: 5em;
 	}
 
 	#hero p {
-		line-height: 13px;
+		line-height: 14px;
 		color: #fff;
 	}
 
 #slogan {
 	font-family: 'Syncopate', sans-serif;
-	font-size: 25px;
-	line-height: 25px;
+	line-height: 40px;
+	padding-top: 2.5em;
+	font-weight: 100;
 }
 
-	#slogan, h1{
-	font-family: 'Syncopate', sans-serif;
-	font-size: 25px;
-	line-height: 25px;
-	color: #fff;
+	header h3{
+		font-family: 'Syncopate', sans-serif;
+		font-size: 1.2em;
+		line-height: 20px;
+		color: #ffffee;
+		text-decoration: none;
 	}
 
-#hero.actions {
-	line-height: 45px;
-	list-style: none;
-	border-color: rgba(255,255,255,0.75);
-	background-color: rgba(255,255,255,0.15);
-	color: #fff; 
+.actions {
+	padding-top: 1.2em;
+}
 
+.actions a{
+	line-height: 2em;
+	width: 175px;
+	list-style: none;
+	border-color: rgba(255,255,238,0.75);
+	background-color: rgba(255,255,238,0.35);
+	color: #222211; 
+	text-transform: uppercase;
+	display: block;
+	margin: 0 auto;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
 }
 
 #main-wrapper {
-	background-color: #d1d4c1;
-	font-size: 13px;
+	background-color: #999977;
+	font-size: 14px;
 	text-align: center;
-	color: #000;
+	color: #222211;
 	padding-left: 40px;
 	padding-right: 40px;
+	padding-top: 2em;
+	padding-bottom: 2.5em;
+}
+	.row p{
+		padding-left: 2em;
+		padding-right: 2em;
+		font-family: 'Raleway', sans-serif;
+		line-height: 1.3em;
+	}
+
+.row h4{
+	font-size: 1.2em;
 }
 
-p {
-	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
-	color: #000;
+.row ul li {
+	padding-bottom: 0.5em;
 }
-
-
 
 a {
 	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
-	color: #fff;
+	font-size: 14px;
+	color: #ffffee;
 	text-decoration: none;
 }
 
@@ -180,23 +237,25 @@ a {
 
 #footer {
 	font-family: 'Raleway', sans-serif;
-	background: rgb(19,27,35);
-	position: relative;
-	font-size: 9px;
-	color: #fff;
+	background-color: #222211;
+	display: block;
+	text-align: center;
+	font-size: .8em;
+	color: #ffffee;
+	padding-top: 2.5em;
+	padding-bottom: 1em;
 }
 	#footer a{
-	background: rgb(19,27,35);
+	background-color: #222211;
 	position: relative;
-	font-size: 9px;
-	color: #fff;
+	font-size: .8em;
+	color: #ffffee;
 }
 
 #footer p{
-	background: rgb(19,27,35);
+	background-color: #222211;
 	position: relative;
-	font-size: 9px;
-	color: #fff;
-	padding-top: 5px;
-	padding-bottom: 10px;
+	font-size: 1.2em;
+	color: #ffffee;
+
 }
