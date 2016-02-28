@@ -19,13 +19,6 @@ body {
 	color: #222211;
 }
 
-
-
-/*.container {
-	margin-left: auto;
-	margin-right: auto;
-}*/
-
 h1 {
 	font-family: 'Syncopate', sans-serif;
 	font-size: 25px;
@@ -67,7 +60,7 @@ p {
 		color: #222211;
 	}
 
-nav#nav {
+nav#nav-1 {
 	display: block;
 	font-family: 'Syncopate', sans-serif;
 	font-size: 1.3em;
@@ -90,11 +83,11 @@ nav#nav {
 	
 }
 
-#header {
+#header-1 {
 	position: relative;
 }
 
-#header:after {
+#header-1:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -122,7 +115,7 @@ hr{
 		line-height: 50px;
 	}
 
-#nav {
+#nav-1 {
 	width: 75%;
 	float: right;
 	font-family: 'Raleway', sans-serif;
@@ -130,10 +123,10 @@ hr{
 	padding-right: 25px;
 	line-height: 50px;
 }
-	#nav ul {
+	#nav-1 ul {
 		float: right;
 	}
-	#nav ul li {
+	#nav-1 ul li {
 		float: left;
 		list-style: none;
 		line-height: 50px;
@@ -169,12 +162,14 @@ hr{
 	font-weight: 100;
 }
 
-	header h3{
+	#header-2 h3{
 		font-family: 'Syncopate', sans-serif;
 		font-size: 1.2em;
 		line-height: 20px;
 		color: #ffffee;
 		text-decoration: none;
+		line-height: 200%;
+
 	}
 
 .actions {
@@ -205,18 +200,18 @@ hr{
 	padding-top: 2em;
 	padding-bottom: 2.5em;
 }
-	.row p{
+	.article-1 p{
 		padding-left: 2em;
 		padding-right: 2em;
 		font-family: 'Raleway', sans-serif;
 		line-height: 1.3em;
 	}
 
-.row h4{
+.article-1 h4{
 	font-size: 1.2em;
 }
 
-.row ul li {
+.article-1 ul li {
 	padding-bottom: 0.5em;
 }
 
