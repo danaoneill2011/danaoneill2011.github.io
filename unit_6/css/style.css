@@ -143,15 +143,15 @@ nav {
 	background-size: cover;
 	color: #ffffee;
 	text-align: center;
-	padding-top: 8.5em;
-	padding-bottom: 3em;
+	padding-top: 5.5em;
+	padding-bottom: 2em;
 }
 	#hero h2 {
 		font-family: 'Syncopate', sans-serif;
 		color: #ffffee; 
-		font-weight: 500;
+		font-weight: 700;
 		text-transform: uppercase;
-		font-size: 5em;
+		font-size: 4em;
 	}
 
 	#hero p {
@@ -162,7 +162,7 @@ nav {
 #slogan {
 	font-family: 'Syncopate', sans-serif;
 	line-height: 40px;
-	padding-top: 2.5em;
+	padding: 2.5em 0 1em 0;
 	font-weight: 100;
 }
 
@@ -177,7 +177,7 @@ nav {
 	}
 
 #actions {
-	padding-top: 1.2em;
+	padding-top: 1.5em;
 }
 
 .button{
@@ -200,26 +200,44 @@ nav {
 	font-size: 14px;
 	text-align: center;
 	color: #222211;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-top: 2em;
 	padding-bottom: 2.5em;
-	width: 
+	max-width: 1100px;
 }
-	
-#section-1 {
 
+
+#section-1 {
+	max-width: 	25%;
+	padding: 10px;
+	margin: 0 0 0 20px;
+	float: 	left;
+}
+
+aside img {
+	max-width: 95%;
+	text-align: center;	
 }
 
 #section-2 {
-
+	max-width: 	70%;
+	padding: 10px;
+	margin: 0 20px 0 0;
+	float: 	right;
 }
 
-aside {
 
+.clearfix:after {
+	visibility: hidden;
+	display: block;	
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
-	.article-1 p{
+	.article-1 p, .article-2 p{
 		padding-left: 2em;
 		padding-right: 2em;
 		font-family: 'Raleway', sans-serif;
