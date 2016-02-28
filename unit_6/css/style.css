@@ -1,0 +1,275 @@
+@import url(https://fonts.googleapis.com/css?family=Syncopate);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	/*background: url("/unit_3/images/rose-background-v3.jpg");*/
+	background: #ffffee;
+	/*background-size: cover;*/
+	margin-left: 5em;
+	margin-right: 5em;
+	color: #222211;
+	max-width: 1200px;
+}
+
+h1 {
+	font-family: 'Syncopate', sans-serif;
+	font-size: 25px;
+	color: #ffffee;
+}
+
+h2 {
+	font-size: 45px;
+	color: #ffffee;
+}
+
+h3 {
+	font-size: 20px;
+	color: #ffffee;
+	text-decoration: none;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #222211;
+}
+
+ol, ul {
+	list-style: none;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+p {
+	font-size: 14px;
+	line-height: 18px;
+	color: #222211;
+}
+
+	p ul li {
+		font-size: 1em;
+		line-height: 18px;
+		color: #222211;
+	}
+
+
+.image {
+	display: inline-block;
+	outline: 0;
+}
+
+#page-wrapper {
+	background-color: #999977;
+}
+
+#header-wrapper {
+	background-color: #999977;
+	font-family: 'Syncopate', sans-serif;
+}
+
+#header-1 {
+	height: 50px;
+	background-color: #999977;
+	position: relative;
+}
+
+#header-1:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+hr{
+	width: 300px;
+	color: #ffffee;
+	display: block;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 25%;
+	float: left;
+	display: block;
+	padding: 10px;
+	height: 50px;
+}
+
+
+	#logo h1 a{
+		font-family: 'Syncopate', sans-serif;
+		font-size: 1em;
+		height: 50px;
+		float: left;
+	}
+
+nav {
+	float: right;
+	font-family: 'Syncopate', sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	height: 50px;
+	
+
+}
+
+#nav-1 {
+	font-family: 'Raleway', sans-serif;
+	word-spacing: 1em;
+}
+	
+	nav a {
+		text-decoration: none;
+		padding: 15px;
+		color: #ffffee;
+		display: inline-block;
+	}
+
+	a:hover {
+		color: #555533;
+	}
+
+#hero {
+	position: relative;
+	background: url("../images/whiterose-background-v2.jpg");
+	background-size: cover;
+	color: #ffffee;
+	text-align: center;
+	padding-top: 8.5em;
+	padding-bottom: 3em;
+}
+	#hero h2 {
+		font-family: 'Syncopate', sans-serif;
+		color: #ffffee; 
+		font-weight: 500;
+		text-transform: uppercase;
+		font-size: 5em;
+	}
+
+	#hero p {
+		line-height: 14px;
+		color: #fff;
+	}
+
+#slogan {
+	font-family: 'Syncopate', sans-serif;
+	line-height: 40px;
+	padding-top: 2.5em;
+	font-weight: 100;
+}
+
+	#header-2 h3{
+		font-family: 'Syncopate', sans-serif;
+		font-size: 1.2em;
+		line-height: 20px;
+		color: #ffffee;
+		text-decoration: none;
+		line-height: 200%;
+
+	}
+
+#actions {
+	padding-top: 1.2em;
+}
+
+.button{
+	line-height: 2em;
+	width: 175px;
+	list-style: none;
+	border-color: rgba(255,255,238,0.75);
+	background-color: rgba(255,255,238,0.35);
+	color: #222211; 
+	text-transform: uppercase;
+	display: block;
+	margin: 0 auto;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+	text-align: center;
+}
+
+#main-wrapper {
+	background-color: #999977;
+	font-size: 14px;
+	text-align: center;
+	color: #222211;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 2em;
+	padding-bottom: 2.5em;
+	width: 
+}
+	
+#section-1 {
+
+}
+
+#section-2 {
+
+}
+
+aside {
+
+}
+
+	.article-1 p{
+		padding-left: 2em;
+		padding-right: 2em;
+		font-family: 'Raleway', sans-serif;
+		line-height: 1.3em;
+	}
+
+.article-1 h4{
+	font-size: 1.2em;
+}
+
+.article-1 ul li {
+	padding-bottom: 0.5em;
+}
+
+a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #ffffee;
+	text-decoration: none;
+}
+
+
+
+/*tables*/
+
+/*buttons or actions*/
+
+/*footers*/
+
+#footer {
+	font-family: 'Raleway', sans-serif;
+	background-color: #222211;
+	display: block;
+	text-align: center;
+	font-size: .8em;
+	color: #ffffee;
+	padding-top: 2.5em;
+	padding-bottom: 1em;
+}
+	#footer a{
+	background-color: #222211;
+	position: relative;
+	font-size: .8em;
+	color: #ffffee;
+}
+
+#footer p{
+	background-color: #222211;
+	position: relative;
+	font-size: 1.2em;
+	color: #ffffee;
+
+}
