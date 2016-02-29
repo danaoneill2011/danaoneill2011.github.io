@@ -14,10 +14,10 @@ body {
 	/*background: url("/unit_3/images/rose-background-v3.jpg");*/
 	background: #ffffee;
 	/*background-size: cover;*/
-	margin-left: 5em;
-	margin-right: 5em;
+/*	margin-left: 5em;
+	margin-right: 5em;*/
 	color: #222211;
-	max-width: 1200px;
+	overflow: auto;
 }
 
 h1 {
@@ -145,6 +145,8 @@ nav {
 	text-align: center;
 	padding-top: 5.5em;
 	padding-bottom: 2em;
+	width: 100%;
+	margin: 0;
 }
 	#hero h2 {
 		font-family: 'Syncopate', sans-serif;
@@ -196,37 +198,49 @@ nav {
 }
 
 #main-wrapper {
-	background-color: #999977;
+	background: #999977;
 	font-size: 14px;
 	text-align: center;
 	color: #222211;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 2em;
-	padding-bottom: 2.5em;
-	max-width: 1100px;
+	font-family: 'Raleway', sans-serif;
+	line-height: 200%;
+	overflow: auto;
 }
 
-
-#section-1 {
-	max-width: 	25%;
-	padding: 10px;
-	margin: 0 0 0 20px;
+#section-1 img{
+	width: 	30.33%;
+	padding: 2%;
 	float: 	left;
+	display: block;
+	text-align: center;	
 }
 
 aside img {
-	max-width: 95%;
 	text-align: center;	
 }
 
 #section-2 {
-	max-width: 	70%;
-	padding: 10px;
-	margin: 0 20px 0 0;
-	float: 	right;
+	width: 37.33%;
+	padding: 2%;
+	float: 	left;
+}
+	#section-2 li {
+	float: left;
+  	width: 38%;
+  	height: 3em;
+  	outline: 3px solid rgba(255,255,238,0.25);
+  	text-align: center;
+  	line-height: 3em;
+  	color: #222211;
+  	background: rgba(255,255,238,0.35);
+  	margin: 4%;
 }
 
+#section-3 {
+	width: 30.33%;
+	padding: 2%;
+	float: left;
+}
 
 .clearfix:after {
 	visibility: hidden;
@@ -237,20 +251,20 @@ aside img {
 	height: 0;
 }
 
-	.article-1 p, .article-2 p{
+/*	.article-1 p, .article-2 p{
 		padding-left: 2em;
 		padding-right: 2em;
 		font-family: 'Raleway', sans-serif;
 		line-height: 1.3em;
-	}
+	}*/
 
-.article-1 h4{
+/*.article-1 h4{
 	font-size: 1.2em;
 }
 
 .article-1 ul li {
 	padding-bottom: 0.5em;
-}
+}*/
 
 a {
 	font-family: 'Raleway', sans-serif;
