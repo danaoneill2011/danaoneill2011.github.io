@@ -208,39 +208,57 @@ nav {
 }
 
 #section-1 img{
-	width: 	30.33%;
+	width: 	40%;
 	padding: 2%;
 	float: 	left;
-	display: block;
+	display: inline-block;
 	text-align: center;	
 }
 
-aside img {
-	text-align: center;	
-}
+/*aside img {
+	text-align: center;
+	margin: 2%;
+}*/
+
+	.picture-1 li{
+		float: left;
+	  	width: 36%;
+	  	height: 6em;
+	  	/*outline: 3px solid rgba(255,255,238,0.25);*/
+	  	text-align: center;
+	  	line-height: 6em;
+	  	/*color: #222211;*/
+	  	/*background: rgba(255,255,238,0.35);*/
+	}
+
 
 #section-2 {
-	width: 37.33%;
+	width: 45%;
 	padding: 2%;
+	margin: 2%;
 	float: 	left;
+	text-align: center;
 }
 	#section-2 li {
 	float: left;
-  	width: 38%;
-  	height: 3em;
+  	width: 45%;
+  	height: 6em;
   	outline: 3px solid rgba(255,255,238,0.25);
   	text-align: center;
-  	line-height: 3em;
+  	line-height: 6em;
   	color: #222211;
   	background: rgba(255,255,238,0.35);
-  	margin: 4%;
+  	margin: 2%;
 }
 
 #section-3 {
-	width: 30.33%;
+	width: 85%;
 	padding: 2%;
-	float: left;
+	margin: 2%;
+	display: block;
+	clear: both;
 }
+
 
 .clearfix:after {
 	visibility: hidden;
