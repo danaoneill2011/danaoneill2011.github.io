@@ -198,7 +198,6 @@ nav {
 }
 
 #main-wrapper {
-	background: #999977;
 	font-size: 14px;
 	text-align: center;
 	color: #222211;
@@ -207,56 +206,67 @@ nav {
 	overflow: auto;
 }
 
-#section-1 img{
-	width: 	40%;
-	padding: 2%;
-	float: 	left;
-	display: inline-block;
-	text-align: center;	
-}
-
-/*aside img {
+#section-1 {
+	width: 40%;
+	margin: 5%;
+	float: left;
 	text-align: center;
-	margin: 2%;
-}*/
 
-	.picture-1 li{
+}
+	#section-1 img{
+		width: 	40%;
+		margin: 2%;
+		float: 	left;
+		display: block;
+		text-align: center;	
+		background-color: #222211;
+	}
+
+	#section-1.picture-1 li{
 		float: left;
-	  	width: 36%;
-	  	height: 6em;
-	  	/*outline: 3px solid rgba(255,255,238,0.25);*/
+	  	width: 45%;
+	  	height: 5em;
+	  	outline: 3px solid rgba(255,255,238,0.75);
 	  	text-align: center;
-	  	line-height: 6em;
-	  	/*color: #222211;*/
-	  	/*background: rgba(255,255,238,0.35);*/
+	  	line-height: 5em;
+	  	margin: auto;
 	}
 
 
 #section-2 {
-	width: 45%;
+	width: 40%;
 	padding: 2%;
-	margin: 2%;
 	float: 	left;
 	text-align: center;
+	display: block;
 }
 	#section-2 li {
 	float: left;
-  	width: 45%;
-  	height: 6em;
+  	width: 40%;
+  	height: 9em;
   	outline: 3px solid rgba(255,255,238,0.25);
   	text-align: center;
-  	line-height: 6em;
+  	line-height: 9em;
   	color: #222211;
   	background: rgba(255,255,238,0.35);
-  	margin: 2%;
+  	margin: 1%;
+  	padding: 2%;
 }
 
 #section-3 {
-	width: 85%;
+	width: 90%;
 	padding: 2%;
-	margin: 2%;
+	margin: 5%;
+	text-align: center;
 	display: block;
+	background-color: #222211;
+	position: relative;
+	color: #ffffee;
 	clear: both;
+}
+
+#section-3 p{
+	color: #ffffee;
 }
 
 
