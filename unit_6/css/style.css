@@ -225,16 +225,15 @@ nav {
 	#section-1.picture-1 li{
 		float: left;
 	  	width: 45%;
-	  	height: 5em;
+	  	height: 4em;
 	  	outline: 3px solid rgba(255,255,238,0.75);
 	  	text-align: center;
-	  	line-height: 5em;
-	  	margin: auto;
+	  	line-height: 4em;
 	}
 
 
 #section-2 {
-	width: 40%;
+	width: 45%;
 	padding: 2%;
 	float: 	left;
 	text-align: center;
