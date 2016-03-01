@@ -207,50 +207,51 @@ nav {
 }
 
 #section-1 {
-	width: 40%;
-	margin: 5%;
+	width: 50%;
+	padding: 2%;
 	float: left;
 	text-align: center;
 
 }
-	#section-1 img{
-		width: 	40%;
-		margin: 2%;
+	#section-1 .picture-1 ul li{
+		width: 	50%;
+		padding: 2%;
 		float: 	left;
 		display: block;
 		text-align: center;	
 		background-color: #222211;
 	}
 
-	#section-1.picture-1 li{
-		float: left;
-	  	width: 45%;
-	  	height: 4em;
-	  	outline: 3px solid rgba(255,255,238,0.75);
-	  	text-align: center;
-	  	line-height: 4em;
+	#section-1 .picture-1 ul li img{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
 	}
 
 
 #section-2 {
-	width: 45%;
+	width: 50%;
 	padding: 2%;
 	float: 	left;
 	text-align: center;
 	display: block;
 }
-	#section-2 li {
+	#section-2 ul li {
+	padding: 2%;
 	float: left;
-  	width: 40%;
-  	height: 9em;
-  	outline: 3px solid rgba(255,255,238,0.25);
+  	width: 50%;
+}
+
+	#section-2 ul li a {
+	outline: 3px solid rgba(255,255,238,0.25);
   	text-align: center;
   	line-height: 9em;
+  	height: 0;
+  	padding-bottom: 49%;
   	color: #222211;
   	background: rgba(255,255,238,0.35);
-  	margin: 1%;
-  	padding: 2%;
-}
+  	display: block;
+	}
 
 #section-3 {
 	width: 90%;
@@ -330,5 +331,13 @@ a {
 	position: relative;
 	font-size: 1.2em;
 	color: #ffffee;
+}
 
+@media screen and (max-width: 768px) {
+	#section-1 {
+		width: 100%;
+	}
+	#section-2 {
+		width: 100%;
+	}
 }
