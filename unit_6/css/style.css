@@ -231,15 +231,15 @@ nav {
 	width: 100%;
   	text-align: center;
   	border-color: transparent;
-  	line-height: 25%;
+  	line-height: 20%;
   	height: 0;
-  	padding: 10% 0;
+  	padding: 8%;
   	color: #222211;
   	background: #ffffee;
   	display: block;
 	}
 
-#section-1 a:hover {
+#section-1 ul li a:hover {
 	background-color: #555533;
 	color: #ffffee;
 }
@@ -355,18 +355,27 @@ a {
 	color: #ffffee;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 765px) {
 	#section-1 {
-		width: 100%;
+		width: 100%;	
 	}
 
-	#section-2 {
-		width: 100%;
+	#section-1 ul li {
+		width: 50%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+		#section-2 {
+			width: 100%;
+	}
+
+		#section-3 {
+			width: 100%;	
+	}
 }
-	#section-3 {
-		width: 100%;	
-}
-}
+
+
 
 
 @media only screen and (max-width: 480px) {
