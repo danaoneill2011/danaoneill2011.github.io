@@ -151,6 +151,7 @@ nav {
 		font-weight: 400;
 		text-transform: uppercase;
 		font-size: 4em;
+		line-height: 150%;
 	}
 
 	#hero p {
@@ -168,7 +169,7 @@ nav {
 	#header-2 h3{
 		font-family: 'Syncopate', sans-serif;
 		font-size: 1.2em;
-		line-height: 20px;
+		line-height: 1.4em;
 		color: #ffffee;
 		text-decoration: none;
 		line-height: 200%;
@@ -356,7 +357,54 @@ nav {
 
 
 @media only screen and (max-width: 480px) {
-/*edit the LEARN MORE BUTTON*/
-/*increase the padding on the event details buttons*/
+	
+	h2 {
+		font-size: 2.5em;
+		line-height: 2.7em;
+		width: 100%;
+		margin: 0 auto;
 	}
+
+	h3 {
+		font-size: .8em;
+		line-height: 200%;
+	}
+
+	#hero {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	h2 {
+		font-size: 2em;
+		line-height: 2.2em;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	h3 {
+		font-size: .5em;
+		line-height: 200%;
+	}
+
+	#hero {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#actions {
+		padding: 1em;
+	}
+
+	.button{
+		line-height: 1em;
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 0.7em;
+		padding-bottom: 0.7em;
+		text-align: center;
+	}
+
 }
