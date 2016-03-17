@@ -129,6 +129,10 @@ nav {
 		color: #222211;
 		display: inline-block;
 		font-size: .9em;
+		-webkit-transition: all 1s ease-in-out;
+  		-moz-transition: all 1s ease-in-out;
+  		-o-transition: all 1s ease-in-out;
+  		transition: all 1s ease-in-out;
 	}
 
 	a:hover {
@@ -246,6 +250,10 @@ nav {
   	color: #222211;
   	background: #ffffee;
   	display: block;
+  	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition: all 1s ease-in-out;
+  	-o-transition: all 1s ease-in-out;
+  	transition: all 1s ease-in-out;
 	}
 
 #section-1 ul li a:hover {
@@ -353,8 +361,17 @@ nav {
 	}
 }
 
+@media only screen and (max-width: 640px) {
+	.button{
+		width: 100%;
+	}
+}
 
-
+@media only screen and (max-width: 540px) {
+	#hero h2{
+		font-size: 2em;
+	}
+}
 
 @media only screen and (max-width: 480px) {
 	
@@ -373,6 +390,13 @@ nav {
 	#hero {
 		width: 100%;
 		margin: 0 auto;
+	}
+}
+
+
+@media only screen and (max-width: 417px) {
+	#hero h2{
+		font-size: 1.8em;
 	}
 }
 
