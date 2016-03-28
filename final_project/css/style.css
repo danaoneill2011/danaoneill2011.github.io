@@ -1,0 +1,435 @@
+@import url(https://fonts.googleapis.com/css?family=Sacramento);
+@import url(https://fonts.googleapis.com/css?family=Alice);
+@import url(https://fonts.googleapis.com/css?family=Syncopate);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+	background: #ffffee;
+	color: #222211;
+	overflow: auto;
+	line-height: 16px;
+	font-size: 16px;
+}
+
+h1 {
+	font-family: 'Sacramento', sans-serif;
+	font-size: 1.6px;
+	color: #ffffee;
+}
+
+h2 {
+	font-size: 2.8px;
+	color: #ffffee;
+}
+
+h3 {
+	font-size: 1.25px;
+	color: #ffffee;
+	text-decoration: none;
+}
+
+h4 {
+	font-family: 'Alice', sans-serif;
+	font-weight: 700;
+	color: #222211;
+	font-size: 1em;
+}
+
+ol, ul {
+	list-style: none;
+	font-family: 'Alice', sans-serif;
+	text-align: center;
+}
+
+p {
+	font-size: 1.1em;
+	line-height: 150%;
+	color: #222211;
+}
+
+a {
+	color: #ffffee;
+	text-decoration: none;
+}
+
+
+	p ul li {
+		font-size: .9em;
+		color: #222211;
+	}
+
+
+.image {
+	display: inline-block;
+	outline: 0;
+}
+
+#page-wrapper {
+	background-color: #ffffee;
+	font-size: 1em;
+}
+
+#header-wrapper {
+	background-color: #999977;
+	font-family: 'Sacramento', sans-serif;
+}
+
+#header-1 {
+	height: 35%;
+	background-color: #ffffee;
+}
+
+#header-1:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#logo {
+	width: 25%;
+	float: left;
+	display: block;
+	padding: 1%;
+	height: 20%;
+}
+
+	#logo h1 {
+		font-size: 1.2em;
+	}
+
+	#logo h1 a {
+		font-family: 'Sacramento', sans-serif;
+		color: #222211;
+		float: left;
+	}
+
+
+nav {
+	float: right;
+	font-family: 'Sacramento', sans-serif;
+	text-transform: uppercase;
+	height: 20%;
+	padding: 1%;
+}
+
+#nav-1 {
+	font-family: 'Alice', sans-serif;
+	word-spacing: 1em;
+}
+	
+	nav a {
+		text-decoration: none;
+		color: #222211;
+		display: inline-block;
+		font-size: .9em;
+		-webkit-transition: all 1s ease-in-out;
+  		-moz-transition: all 1s ease-in-out;
+  		-o-transition: all 1s ease-in-out;
+  		transition: all 1s ease-in-out;
+	}
+
+	a:hover {
+		color: #555533;
+	}
+
+#hero {
+	background: url("../images/whiterose-background-v2.jpg");
+	background-size: cover;
+	color: #ffffee;
+	text-align: center;
+	padding-top: 4%;
+	padding-bottom: 3%;
+	width: 100%;
+	margin: 0 auto;
+}
+	#hero h2 {
+		font-family: 'Sacramento', sans-serif;
+		color: #ffffee; 
+		font-weight: 400;
+		font-size: 5em;
+		line-height: 150%;
+	}
+
+	#hero p {
+		line-height: 150%;
+		color: #fff;
+	}
+
+#slogan {
+	font-family: 'Sacramento', sans-serif;
+	line-height: 200%;
+	padding: 1.5em 0 1em 0;
+	font-weight: 100;
+}
+
+	#header-2 h3{
+		font-family: 'Sacramento', sans-serif;
+		font-size: 1.75em;
+		line-height: 1.4em;
+		color: #ffffee;
+		text-decoration: none;
+		line-height: 200%;
+
+	}
+
+#actions {
+	padding-top: 1%;
+}
+
+.button{
+	line-height: 2em;
+	width: 20%;
+	list-style: none;
+	border-color: rgba(255,255,238,0.75);
+	background-color: rgba(255,255,238,0.35);
+	color: #222211; 
+	text-transform: uppercase;
+	display: block;
+	margin: 0 auto;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+	text-align: center;
+}
+
+#main-wrapper {
+	font-size: 14px;
+	text-align: center;
+	color: #222211;
+	font-family: 'Alice', sans-serif;
+	width: 100%;
+	overflow: auto;
+}
+
+#section-1 {
+	width: 22%;
+	padding: 2%;
+	float: 	left;
+	text-align: center;
+	display: block;
+}
+
+	#section-1 ul li {
+	width: 100%;
+	padding: 1%;
+	float: left;
+	color: #ffffee;
+	margin: 1%;
+	}
+
+	.article-1 {
+		width: 100%;
+	}
+
+	#section-1 h4 {
+	font-family: 'Sacramento', sans-serif;
+	line-height: 125%;
+	font-weight: 100;
+	font-size: 1.5em;
+	width: 100%;
+	padding: 2% 0;
+	float: left;
+  	background-color: #ffffee;
+	margin: 1%;
+	}
+
+	#section-1 ul li a {
+	width: 100%;
+  	text-align: center;
+  	border-color: transparent;
+  	line-height: 20%;
+  	height: 0;
+  	padding: 8%;
+  	color: #222211;
+  	background: #ffffee;
+  	display: block;
+  	-webkit-transition: all 1s ease-in-out;
+  	-moz-transition: all 1s ease-in-out;
+  	-o-transition: all 1s ease-in-out;
+  	transition: all 1s ease-in-out;
+	}
+
+#section-1 ul li a:hover {
+	background-color: #555533;
+	color: #ffffee;
+}
+
+#section-2 {
+	width: 78%;
+	padding: 2%;
+	float: 	left;
+	text-align: center;
+	display: block;
+	background-color: #ffffee;
+	color: #222211;
+}
+
+#section-2 p{
+	color: #222211;
+	line-height: 200%;
+	padding: 5%;
+	margin: 1%;
+}
+
+.article-2 {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+#section-3 {
+	width: 100%;
+	padding: 1%;
+	float: left;
+}
+	#section-3 .picture-1 ul li{
+		width: 	25%;
+		float: 	left;
+		display: block;
+		text-align: center;	
+	}
+
+	#section-3 .picture-1 ul li img{
+		width: 100%;
+		display: block;
+		margin: 0 auto
+	}
+
+
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;	
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#footer {
+	font-family: 'Alice', sans-serif;
+	background-color: #222211;
+	display: block;
+	text-align: center;
+	font-size: .8em;
+	color: #ffffee;
+	padding-top: 2.5em;
+	padding-bottom: 1em;
+}
+	#footer a{
+	background-color: #222211;
+	position: relative;
+	font-size: .8em;
+	color: #ffffee;
+}
+
+#footer p{
+	background-color: #222211;
+	position: relative;
+	font-size: 1.2em;
+	color: #ffffee;
+}
+
+@media screen and (max-width: 768px) {
+	#section-1 {
+		width: 100%;	
+	}
+
+	#section-1 ul li {
+		width: 50%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+		#section-2 {
+			width: 100%;
+	}
+
+		#section-3 {
+			width: 100%;	
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.button{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	#hero h2{
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	
+	h2 {
+		font-size: 2.5em;
+		line-height: 2.7em;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	h3 {
+		font-size: .8em;
+		line-height: 200%;
+	}
+
+	#hero {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+
+@media only screen and (max-width: 417px) {
+	#hero h2{
+		font-size: 1.8em;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	h2 {
+		font-size: 2em;
+		line-height: 2.2em;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	h3 {
+		font-size: .5em;
+		line-height: 200%;
+	}
+
+	#hero {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	#actions {
+		padding: 1em;
+	}
+
+	.button{
+		line-height: 1em;
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 0.7em;
+		padding-bottom: 0.7em;
+		text-align: center;
+	}
+
+}
