@@ -202,7 +202,7 @@ nav {
 
 #main-wrapper {
 	font-size: 14px;
-	text-align: center;
+
 	color: #222211;
 	font-family: 'Alice', sans-serif;
 	width: 100%;
@@ -266,7 +266,7 @@ nav {
 	width: 78%;
 	padding: 2%;
 	float: 	left;
-	text-align: center;
+
 	display: block;
 	background-color: #ffffee;
 	color: #222211;
@@ -275,14 +275,14 @@ nav {
 #section-2 p{
 	color: #222211;
 	line-height: 200%;
-	padding: 5%;
+	padding: 2%;
 	margin: 1%;
 }
 
 .article-2 {
 	margin: 0 auto;
 	width: 100%;
-	text-align: center;
+
 }
 
 
